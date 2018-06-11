@@ -1,0 +1,3 @@
+@function calcWidth($numGutters, $numCol) {
+  @return calc((100% - (#{$gutter-horizontal} * $numGutters) / $numCol))
+}
